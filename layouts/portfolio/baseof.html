@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
+</head>
+
+<body>
+    <div id="all">
+        <div class="container-fluid">
+            <div class="row row-offcanvas row-offcanvas-left">
+                {{ partial "sidebar.html" . }}
+                {{ block "main" . }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ partial "scripts.html" . }}
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                width: '75%',
+                perPage: 3,
+                gap: '1rem',
+                focus: 'center'
+            });
+            splide.mount();
+        });
+    </script>
+</body>
+
+</html>

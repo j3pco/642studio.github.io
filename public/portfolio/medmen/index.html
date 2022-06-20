@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>642.studio</title>
 <meta name="description" content="The home on the web for 642.studio llc. A software consultantcy excelling at iOS and backend services. Also able to assist with CI/CD, task automation and more.">
@@ -27,15 +29,19 @@
 <link href="https://642.studio/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://642.studio/img/favicon.png">
 
-  <link href="https://642.studio/about/index.xml" rel="alternate" type="application/rss+xml" title="642.studio" />
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
 </head>
+
 <body>
-  <div id="all">
-      <div class="container-fluid">
-          <div class="row row-offcanvas row-offcanvas-left">
-              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+    <div id="all">
+        <div class="container-fluid">
+            <div class="row row-offcanvas row-offcanvas-left">
+                <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="https://642.studio/">642.studio</a></h1>
     
@@ -95,36 +101,30 @@
   </div>
 </div>
 
-              
+                
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-  <div class="small-navbar visible-xs">
+    <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
   <h1 class="small-navbar-heading"><a href="https://642.studio/">642.studio</a></h1>
 </div>
 
-  <div class="row">
-    <div class="col-lg-8">
-      <div class="content-column-content">
-         <h1>About me</h1>
-         <p>Hello and welcome to my node on the web. My name is <!-- raw HTML omitted -->Jeff Trespalacios<!-- raw HTML omitted -->, and I am a software engineer currently based in <!-- raw HTML omitted -->Los Angeles, CA<!-- raw HTML omitted -->. I excel at using technology to create solutions to people&rsquo;s problems in many forms including:</p>
-<ul>
-<li>iOS Application Development</li>
-<li>Backend Web Services</li>
-<li>Automating Business Functions</li>
-<li>Setting up Continuous Integration/Deployment Systems</li>
-</ul>
-<p><img src="https://www.gravatar.com/avatar/c19b54255928bccecef5f193cd9f6be6?s=200" alt="This is me"></p>
-<p>I enjoy working on Apple platforms (iOS and tvOS) and the web. I well versed in Swift, Typescript/Javascript and SQL. In addition to those I am also comfortable with Objective-C, Ruby, PHP, and C# and am more than capable of picking up other technologies on the fly. Check out some of the places I&rsquo;ve worked and the things I&rsquo;ve done <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.</p>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="content-column-content">
+                <h1>MedMen</h1>
+                <p>Staff augmentation, assisting with mobile, web, and backend applications.</p>
+<!-- raw HTML omitted -->
 
-      </div>
+                
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
-          </div>
-      </div>
-  </div>
-  <script src="https://642.studio/js/jquery.min.js"></script>
+            </div>
+        </div>
+    </div>
+    <script src="https://642.studio/js/jquery.min.js"></script>
 <script src="https://642.studio/js/bootstrap.min.js"></script>
 <script src="https://642.studio/js/jquery.cookie.js"> </script>
 <script src="https://642.studio/js/ekko-lightbox.js"></script>
@@ -136,5 +136,18 @@
 
 
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                width: '75%',
+                perPage: 3,
+                gap: '1rem',
+                focus: 'center'
+            });
+            splide.mount();
+        });
+    </script>
 </body>
+
 </html>

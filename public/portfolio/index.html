@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>642.studio</title>
 <meta name="description" content="The home on the web for 642.studio llc. A software consultantcy excelling at iOS and backend services. Also able to assist with CI/CD, task automation and more.">
@@ -31,6 +32,11 @@
   <link href="https://642.studio/portfolio/index.xml" rel="alternate" type="application/rss+xml" title="642.studio" />
 
 
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
 </head>
 
 <body>
@@ -111,6 +117,30 @@
                   <div class="box-masonry">
                       
                         
+                        <a href="https://642.studio/portfolio/medmen/" title="" class="box-masonry-image with-hover-overlay">
+                        
+                            <img src="https://642.studio/portfolio/assets/medmen/icon.png" alt="" class="img-responsive">
+                        </a>
+                      
+                      
+                      <div class="box-masonry-hover-text-header">
+                      
+                          <h4><a href="https://642.studio/portfolio/medmen/">MedMen</a></h4>
+                          <div class="box-masonry-description">
+                            <p>
+                                
+                                  Staff augmentation, assisting with mobile, web, and backend applications.
+                                
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                        
                         <a href="https://642.studio/portfolio/toucan/" title="" class="box-masonry-image with-hover-overlay">
                         
                             <img src="https://642.studio/portfolio/assets/toucan/icon.png" alt="" class="img-responsive">
@@ -124,6 +154,7 @@
                             <p>
                                 
                                   The Toucan iOS Client.
+Extending the [Toucan]
                                 
                             </p>
                           </div>
@@ -147,7 +178,12 @@
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  The mobile recorder companion app to
+                                  
+<p>
+    The mobile recorder companion app to <a href="https://resonaterecordings.com">Resonate Recordings</a>' podcast
+    production services.
+</p>
+
                                 
                             </p>
                           </div>
@@ -171,7 +207,12 @@
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>BetterLook was a companion application for <a href="http://thelavenderscaremusic.com">The Lavender Scare</a>&rsquo;s single &lsquo;Better Looking Boy&rsquo;.</p>
+                                  
+<p>
+    BetterLook was a companion application for <a href="http://thelavenderscaremusic.com">The Lavender Scare</a>'s
+    single 'Better Looking Boy'.
+</p>
+
                                 
                             </p>
                           </div>
@@ -195,7 +236,11 @@
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Pinnd was a third party client for the website <a href="https://pinboard.in/">Pinboard</a>.</p>
+                                  
+<p>
+  Pinnd was a third party client for the website <a href="https://pinboard.in/">Pinboard</a>.
+</p>
+
                                 
                             </p>
                           </div>
@@ -223,6 +268,18 @@
 
 
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                width: '75%',
+                perPage: 3,
+                gap: '1rem',
+                focus: 'center'
+            });
+            splide.mount();
+        });
+    </script>
 </body>
 
 </html>

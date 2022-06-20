@@ -37,3 +37,12 @@
     padding: 0;
     margin: 5px 0 0 20px;
 }
+
+/* Correct li markings for splide */
+.content-column-content ul li.splide__slide:before {
+    content: unset;
+}
+
+.content-column-content ul.splide__pagination li::before {
+    content: unset;
+}

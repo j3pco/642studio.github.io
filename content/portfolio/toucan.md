@@ -9,3 +9,8 @@ weight = 1
 
 The Toucan iOS Client.
 <!-- more -->
+
+Extending the [Toucan]
+
+[ios]: https://apps.apple.com/us/app/toucan-language-learning/id1562755912
+
