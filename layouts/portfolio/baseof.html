@@ -21,16 +21,23 @@
     </div>
     {{ partial "scripts.html" . }}
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var splide = new Splide('.splide', {
-                type: 'loop',
-                width: '75%',
-                perPage: 3,
-                gap: '1rem',
-                focus: 'center'
+        if (document.querySelector('.splide')) {
+            document.addEventListener('DOMContentLoaded', function () {
+                var splide = new Splide('.splide', {
+                    type: 'loop',
+                    width: '75%',
+                    perPage: 3,
+                    gap: '1rem',
+                    focus: 'center',
+                    breakpoints: {
+                        640: {
+                            perPage: 2,
+                        },
+                    }
+                });
+                splide.mount();
             });
-            splide.mount();
-        });
+        }
     </script>
 </body>
 
