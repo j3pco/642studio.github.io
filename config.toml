@@ -60,5 +60,5 @@ googleAnalytics = ""
 
   [params.social]
   email         = "hello@642.studio"
-  linkedin      = "jtrespalacios"
-  github        = "jtrespalacios"
+  linkedin      = "https://www.linkedin.com/in/jtrespalacios/"
+  github        = "https://github.com/jtrespalacios"
