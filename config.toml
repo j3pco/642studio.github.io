@@ -14,8 +14,7 @@ googleAnalytics = ""
   description = "The home on the web for 642.studio llc. A software consultantcy excelling at iOS and backend services. Also able to assist with CI/CD, task automation and more."
   copyright = "&copy;2022 642.studio llc"
   sidebarAbout = [
-    "Software engineering solutions for web, mobile and more. Ten years of industry experience delivering code to millions of users.",
-    "Originally from Northern Kentucky, currently based in Los Angeles, California."
+    "Software engineering solutions for web, mobile and more. Over 10 years of industry experience delivering code to millions of users. Based in Los Angeles, CA."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -42,7 +41,7 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Portfolio"
   url = "portfolio/"
   home = true
 
