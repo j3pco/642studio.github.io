@@ -25,7 +25,7 @@
   </a>
   {{end}} -->
   {{ with .Site.Params.social.linkedin }}
-  <a href="{{ . }}" title="LinkedIn">
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="LinkedIn">
     <i class="fa fa-linkedin"></i>
   </a>
   {{end}}
@@ -35,7 +35,7 @@
   </a>
   {{end}}
   {{ with .Site.Params.social.github }}
-  <a href="{{ . }}" title="GitHub">
+  <a href="{{ . }}" class="external" data-animate-hover="pulse"  title="GitHub">
     <i class="fa fa-github"></i>
   </a>
   {{end}}
