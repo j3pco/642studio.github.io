@@ -4,10 +4,6 @@
 <head>
     {{ partial "head.html" . }}
     {{ partial "favicon.html" . }}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
 </head>
 
 <body>
@@ -22,23 +18,7 @@
     </div>
     {{ partial "scripts.html" . }}
     <script>
-        if (document.querySelector('.splide')) {
-            document.addEventListener('DOMContentLoaded', function () {
-                var splide = new Splide('.splide', {
-                    type: 'loop',
-                    width: '75%',
-                    perPage: 3,
-                    gap: '1rem',
-                    focus: 'center',
-                    breakpoints: {
-                        640: {
-                            perPage: 2,
-                        },
-                    }
-                });
-                splide.mount();
-            });
-        }
+
     </script>
 </body>
 

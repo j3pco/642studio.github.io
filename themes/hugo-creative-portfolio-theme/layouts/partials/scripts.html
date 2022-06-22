@@ -7,7 +7,16 @@
 <script src="{{ "js/imagesloaded.pkgd.min.js" | absURL }}"></script>
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 <script src="{{ "js/front.js" | absURL }}"></script>
-
+<script src="{{ "js/lightgallery.min.js" | absURL }}"></script>
+<script>
+if (document.getElementById('lightgallery')) {
+  lightGallery(document.getElementById('lightgallery'), {
+    plugins: [],
+    licenseKey: '048F57B6-168B40B0-A3593275-79519F47',
+    speed: 500
+  });
+}
+</script>
 {{ if .Site.Params.analytics.matomo }}
   {{ partial "_analytics/matomo.html" . }}
 {{ end }}
