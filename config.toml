@@ -1,5 +1,5 @@
-baseurl = "https://642.studio/"
-title = "642.studio"
+baseurl = "https://j3p.co/"
+title = "j3p.co"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -11,8 +11,8 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "violet"
-  description = "The home on the web for 642.studio llc. A software consultantcy excelling at iOS and backend services. Also able to assist with CI/CD, task automation and more."
-  copyright = "&copy;2022 642.studio llc"
+  description = "The home on the web for j3p.co llc. A software consultantcy excelling at iOS and backend services. Also able to assist with CI/CD, task automation and more."
+  copyright = "&copy;2023 j3p.co llc"
   sidebarAbout = [
     "Software engineering solutions for web, mobile and more. Over 10 years of industry experience delivering code to millions of users. Based in Los Angeles, CA."
   ]
@@ -58,6 +58,6 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  email         = "hello@642.studio"
+  email         = "hello@j3p.co"
   linkedin      = "https://www.linkedin.com/in/jtrespalacios/"
   github        = "https://github.com/jtrespalacios"
