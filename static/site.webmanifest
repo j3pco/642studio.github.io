@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "j3p.co llc",
+    "short_name": "j3p.co",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#9055A2",
     "background_color": "#ffffff",
     "display": "standalone"
 }
