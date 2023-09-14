@@ -3,7 +3,7 @@ date = "2022-06-15T08:00:00-08:00"
 title = "About me"
 +++
 
-Hello and welcome to my node on the web. My name is **Jeff Trespalacios**, and I am a software engineer currently based in Los Angeles, CA. I excel at using technology to create solutions to people's problems in many forms including:
+Hello and welcome to my node on the web. My name is **Jeff Trespalacios**, and I am a software engineer currently based in Henderson, NV. I excel at using technology to create solutions to people's problems in many forms including:
 
 - iOS Application Development
     - Swift
