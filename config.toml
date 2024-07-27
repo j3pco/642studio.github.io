@@ -59,7 +59,7 @@ googleAnalytics = ""
 
   [[params.navlinks]]
   name = "Other Projects"
-  url = "https://642.wtf"
+  url = "https://j3p.wtf"
 
   [params.social]
   email         = "hello@j3p.co"
