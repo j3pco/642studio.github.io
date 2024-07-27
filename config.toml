@@ -57,6 +57,10 @@ googleAnalytics = ""
   name = "Get in touch"
   url = "contact/"
 
+  [[params.navlinks]]
+  name = "Other Projects"
+  url = "https://642.wtf"
+
   [params.social]
   email         = "hello@j3p.co"
   linkedin      = "https://www.linkedin.com/in/jtrespalacios/"
